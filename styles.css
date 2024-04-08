@@ -51,6 +51,22 @@ body {
   grid-row: 2;
 }
 
+/* Footer Section */
+footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: #2C3539;
+  color: antiquewhite;
+}
+
+#footer__social-links {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+
 /* Utility Classes */
 a {
   color: inherit;
